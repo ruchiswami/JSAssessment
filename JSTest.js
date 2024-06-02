@@ -7,12 +7,12 @@
 // you can highlight the code you want to test, and then right click and select "Run Code"
 */
 // create a variable to hold your NFT's
-
+let NFTs = [];
 // this function will take in some values as parameters, create an
 // NFT object using the parameters passed to it for its metadata, 
 // and store it in the variable above.
 // create a variable to hold your NFT's
-let NFTs = [];
+
 
 function mintNFT(_name, _eyeColor, _shirtType, _bling) {
     const NFT = {
